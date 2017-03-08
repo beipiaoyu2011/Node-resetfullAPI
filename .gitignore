@@ -1,19 +1,59 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+*.log
+*.log.*
+*.rdb
+*.class
+*.tmp
+out
+*.pyc
+eclipse
+nbproject
+.settings
+.project
+.classpath
+*.ipr
+*.imr
+*.iws
+*.iml
+*.ids
+logs
+test-result
+version.conf
+ofcupload
+*.ids
+*.bak
 
-# Other files and folders
-.settings/
+modules
+**/modules
+**/tmp
+temp
+temp/
+*/*/modules
+*/*/tmp
+*/tmp
+*/modules
+*/.tags1
+*.tags1
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+server.pid
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# selenium
+[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*
+
+.idea/
+module/dangdang/documentation/
+module/sales/conf/test/solr/goods/collection1/data/
+.DS_Store
+*/*/core
+*/*/target
+.idea
+.idea/
+public/.idea/
+precompiled
+/modules
+/conf
+/conf/
+/tmp
+/public/less/**/*.css
+sonar-project.properties
+/node_modules/
+/webpack.config.js
